@@ -1,0 +1,35 @@
+.card-container {
+    background-color: burlywood;
+    border: solid red 2px;
+    border-radius: 25px;
+}
+
+.plane-div {
+    background-color: burlywood;
+    border: solid black 2px;
+    border-radius: 25px;
+}
+
+.departure-div {
+    background-color: burlywood;
+    border: solid green 2px;
+    border-radius: 25px;
+}
+
+.arrival-div {
+    background-color: burlywood;
+    border: solid darkorange 2px;
+    border-radius: 25px;
+}
+
+.hour-div {
+    background-color: burlywood;
+    border: solid darkmagenta 2px;
+    border-radius: 25px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #000, transparent);  
+  }

@@ -1,0 +1,21 @@
+.button {
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    color:blue
+}
+
+.form-container {
+    width: 80%;
+    display: inline-block;
+}
+
+.page-container {
+    width: 50%;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}

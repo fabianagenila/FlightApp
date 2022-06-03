@@ -1,0 +1,27 @@
+POST http://localhost:3001/flights
+Content-Type: application/json
+
+{
+    "airplane": "Boeing 747",
+    "arrivalAirportInitial": "GRU",
+    "arrivalAirportName": "Guarulhos - Governador Andre Franco Montoro International Airport",
+    "arrivalAirportCity": "Sao Paulo",
+    "arrivalDate": "25/01/2002",
+    "arrivalHour": "12:45",
+    "departureAirportInitial": "IOS",
+    "departureAirportName": "Bahia - Jorge Amado Airport",
+    "departureAirportCity": "Ilheus",
+    "departureDate": "22/02/2002",
+    "departureHour": "15:27",
+    "pilot": "João da Silva",
+    "flightStatus": "Em processo de decolagem do aeroporto de origem"
+}
+
+### GET ALL
+GET http://localhost:3001/flights
+
+### GET BY ID
+GET http://localhost:3001/flights/2
+
+### DELETE BY ID
+DELETE http://localhost:3001/flights/1
